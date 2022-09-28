@@ -31,7 +31,7 @@ const Page = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel scelerisque eros, vel scelerisque augue. Curabitur in dui arcu. Quisque pretium, neque ut pharetra semper, velit felis facilisis lacus, a tempus dui ex sed augue. Pellentesque aliquam tempus orci, eget aliquet mi molestie in. Fusce eros purus, maximus sed feugiat ac, posuere eu enim. In eu odio et felis maximus placerat. Praesent vitae nisi erat. Praesent egestas augue nec arcu varius facilisis. Mauris bibendum efficitur enim, sed semper erat scelerisque at.
         </Paragraph>
 
-        <Box align="center" my={4}>
+        <Box align="center" pt={8} my={4}>
           <NextLink href="/projects">
             <Button leftIcon={<ChevronRightIcon />} rightIcon={<ChevronLeftIcon />} colorScheme="teal">
               My Portfolio
