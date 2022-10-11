@@ -8,6 +8,7 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width" />
         <title>Corentin Roy - Homepage </title>
+        <link rel="icon" href="/images/BigBoss.png" />
       </Head>
 
       <Navbar path={router.asPath} />
