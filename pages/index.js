@@ -10,7 +10,7 @@ const Page = () => {
 
   return (
     <Container>
-      <Box borderRadius="lg" bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} p={3} mb={6} align="center">
+      <Box borderRadius="lg" bg={useColorModeValue("blackAlpha.100", "whiteAlpha.200")} p={3} mb={6} align="center">
         {t("index.intro")}
       </Box>
 
