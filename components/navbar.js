@@ -16,6 +16,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button"
+import { useTranslation } from 'react-i18next';
 
 const LinkItem = ({ href, path, children }) => {
   const active = path == href;
@@ -35,6 +36,7 @@ const LinkItem = ({ href, path, children }) => {
 
 const Navbar = (props) => {
   const { path } = props;
+  const { t } = useTranslation()
 
   return (
     <Box
@@ -86,7 +88,7 @@ const Navbar = (props) => {
                   <MenuItem as={Link}> About </MenuItem>
                 </NextLink>
                 <NextLink href="/projects" passHref >
-                  <MenuItem as={Link}> Projects </MenuItem>
+                  <MenuItem as={Link}> {t("projects")} </MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref >
                   <MenuItem as={Link}> Posts </MenuItem>

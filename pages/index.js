@@ -3,12 +3,15 @@ import { ChevronRightIcon, ChevronLeftIcon } from "@chakra-ui/icons"
 import NextLink from "next/link"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
+import { useTranslation } from 'react-i18next';
 
 const Page = () => {
+  const { t } = useTranslation()
+
   return (
     <Container>
       <Box borderRadius="lg" bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} p={3} mb={6} align="center">
-        Hello I'm a student developer at Epitech Technology in Bordeaux 🇫🇷
+        {t("index.intro")}
       </Box>
 
       <Box display={{ md: "flex" }}>
@@ -16,7 +19,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Corentin Roy
           </Heading>
-          <p>JilkoniX (Developer / Cinephile)</p>
+          <p>{t("index.aka")}</p>
         </Box>
         <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
           <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/corentin.jpg" alt="Profile Image" />
@@ -25,21 +28,20 @@ const Page = () => {
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Projects
+          {t("index.projects")}
         </Heading>
         <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel scelerisque eros, vel scelerisque augue. Curabitur in dui arcu. Quisque pretium, neque ut pharetra semper, velit felis facilisis lacus, a tempus dui ex sed augue. Pellentesque aliquam tempus orci, eget aliquet mi molestie in. Fusce eros purus, maximus sed feugiat ac, posuere eu enim. In eu odio et felis maximus placerat. Praesent vitae nisi erat. Praesent egestas augue nec arcu varius facilisis. Mauris bibendum efficitur enim, sed semper erat scelerisque at.
+          {t("lorem_ipsum")}
         </Paragraph>
 
         <Box align="center" pt={8} my={4}>
           <NextLink href="/projects">
             <Button leftIcon={<ChevronRightIcon />} rightIcon={<ChevronLeftIcon />} colorScheme="teal">
-              My Portfolio
+              {t("index.button_portfolio")}
             </Button>
           </NextLink>
         </Box>
       </Section>
-
     </Container>
   );
 };
