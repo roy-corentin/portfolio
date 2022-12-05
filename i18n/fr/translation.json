@@ -1,7 +1,8 @@
 {
+  "about": "À Propos",
   "projects": "Projets",
   "index": {
-    "intro": "Hello I'm a student developer at Epitech Technology in Bordeaux 🇫🇷",
+    "intro": "Hey, je suis un étudiant développeur à Epitech Technology Bordeaux 🇫🇷",
     "projects": "Projets",
     "button_portfolio": "Mon Portfolio",
     "aka": "JilkoniX (Développeur / Cinéphile)"
