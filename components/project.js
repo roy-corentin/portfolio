@@ -31,7 +31,7 @@ const Project = ({ children, title, img, img_hvr, icons = [], delay = 0 }) => {
           transition={{ duration: 0.5, delay: delay }}
         >
           <HStack >
-            <Heading as="h3" variant="section-title" >
+            <Heading key={title} as="h3" variant="section-title" >
               {title}
             </Heading>
             {icons}

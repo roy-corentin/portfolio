@@ -1,12 +1,11 @@
-import { VStack, Container, Text, Box, Heading, SimpleGrid, Divider } from "@chakra-ui/react"
-import RubyIcon from "../public/icons/ruby"
-import CIcon from "../public/icons/c"
-import UnityIcon from "../public/icons/unity"
-import PythonIcon from "../public/icons/python"
+import { VStack, Text, Box, Heading, Divider } from "@chakra-ui/react"
 import SectionProject from "../components/section_project"
 import { useTranslation } from 'react-i18next';
+import projects from "../config/projects.json" assert {type: 'json'};
+import { CIcon, CSIcon, RubyIcon, UnityIcon, PythonIcon } from "../public/icons/icons"
 
 const Projects = () => {
+  const icons = { c: <CIcon />, cs: <CSIcon />, ruby: <RubyIcon />, unity: <UnityIcon />, python: <PythonIcon /> }
   const { t } = useTranslation()
 
   return (
@@ -15,15 +14,13 @@ const Projects = () => {
         {t("projects")}
       </Heading>
       <VStack divider={<Divider />} spacing={1} align="stretch">
-        <SectionProject title="Blue" img="blue.png" img_hvr="blue.gif" icons={[<UnityIcon />, <CIcon />]} delay={0.5}>
-          <Text>{t("projects_page.blue")}</Text>
-        </SectionProject>
-        <SectionProject title="Elements" img="background.jpg" icons={[<PythonIcon />]} delay={0.5}>
-          <Text>{t('lorem_ipsum')}</Text>
-        </SectionProject>
-        <SectionProject title="Project" img="background.jpg" delay={0.5}>
-          <Text>{t('lorem_ipsum')}</Text>
-        </SectionProject>
+        {projects.map((project) => {
+          const project_icons = project["icons"] != undefined ? project["icons"].map((icon) => { return icons[icon] }) : undefined
+
+          return <SectionProject title={project["title"]} img={project["img"]} img_hvr={project["img_hvr"]} icons={project_icons} delay={0.5}>
+            <Text>{t(project["text"])}</Text>
+          </SectionProject>
+        })}
       </VStack>
     </Box >
   )
