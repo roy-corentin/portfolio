@@ -14,6 +14,7 @@ const LogoBox = styled.span`
 
   &:hover {
     transform: scale(1.2);
+    transition: transform 330ms ease-in-out
   }
 `;
 
