@@ -15,10 +15,12 @@ const Projects = () => {
       </Heading>
       <VStack divider={<Divider />} spacing={1} align="stretch">
         {projects.map((project) => {
+          const name = project.title
+          const title = name != undefined ? name.charAt(0).toUpperCase() + name.slice(1) : ""
           const project_icons = project["icons"] != undefined ? project["icons"].map((icon) => { return icons[icon] }) : undefined
 
-          return <SectionProject title={project["title"]} img={project["img"]} img_hvr={project["img_hvr"]} icons={project_icons} delay={0.5}>
-            <Text>{t(project["text"])}</Text>
+          return <SectionProject title={title} img={name + ".png"} img_hvr={name + ".gif"} icons={project_icons} delay={0.5}>
+            <Text>{t("projects_page." + name)}</Text>
           </SectionProject>
         })}
       </VStack>
