@@ -1,14 +1,16 @@
 {
   "about": "À Propos",
-  "projects": "Projets",
+  "lorem_ipsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel scelerisque eros, vel scelerisque augue. Curabitur in dui arcu. Quisque pretium, neque ut pharetra semper, velit felis facilisis lacus, a tempus dui ex sed augue. Pellentesque aliquam tempus orci, eget aliquet mi molestie in. Fusce eros purus, maximus sed feugiat ac, posuere eu enim. In eu odio et felis maximus placerat. Praesent vitae nisi erat. Praesent egestas augue nec arcu varius facilisis. Mauris bibendum efficitur enim, sed semper erat scelerisque at.",
   "index": {
-    "intro": "Hey, je suis un étudiant développeur à Epitech Technology Bordeaux 🇫🇷",
-    "projects": "Projets",
+    "aka": "JilkoniX (Développeur / Cinéphile)",
     "button_portfolio": "Mon Portfolio",
-    "aka": "JilkoniX (Développeur / Cinéphile)"
+    "intro": "Hey, je suis un étudiant développeur à Epitech Technology Bordeaux 🇫🇷",
+    "profile": "Profile",
+    "profile_text": "Je suis étudiant en 3ème année à Epitech Technologie sur Bordeaux👨‍🎓, originaire de Charente-Maritime en pleine campagne 🍀📌📚 Toutes mes études sont basées sur ma passion pour l'informatique. J'ai intégré un lycée qui proposait le BacS option Informatique et Science du Numérique, pour ensuite partir sur Bordeaux afin d'intégrer Epitech Technologie, un cursus en 5ans afin obtenir le titre d'Expert en Technologie de l'information📌📽 J'ai pour seconde passion le cinéma, j'aime autant les voir que comprendre la technique de réalisation. Pour voir ça de plus près je fais de la figuration quand j'en ai la possibilité pour voir de vrai plateau de cinéma. 📌👱🏼 Motivé, autonome et adaptatif, j'ai pour objectif de devenir un développeur confirmé! Je suis donc à la recherche de challenges pour me perfectionner ! 📩 Je serai ravie d'échanger avec vous. Je suis disponible par message privé ou directement par mail: corentin.roy02@laposte.net",
+    "projects": "Projets"
   },
+  "projects": "Projets",
   "projects_page": {
     "blue": "\"Blue\" est un projet de Game Jam, nous avions comme sujet: le bleu. En un week-end nous devions en créer un jeu afin de le présenter devant un jury. Nous avons décidé de faire un jeu en VR, dans une salle en bleu avec des objects de couleur bleu et la musique \"Blue Birds\". Parmis tous un carré est de couleur plus sombre et le joueur doit le trouver en tournant la tête."
-  },
-  "lorem_ipsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel scelerisque eros, vel scelerisque augue. Curabitur in dui arcu. Quisque pretium, neque ut pharetra semper, velit felis facilisis lacus, a tempus dui ex sed augue. Pellentesque aliquam tempus orci, eget aliquet mi molestie in. Fusce eros purus, maximus sed feugiat ac, posuere eu enim. In eu odio et felis maximus placerat. Praesent vitae nisi erat. Praesent egestas augue nec arcu varius facilisis. Mauris bibendum efficitur enim, sed semper erat scelerisque at."
+  }
 }

@@ -28,10 +28,10 @@ const Page = () => {
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          {t("index.projects")}
+          {t("index.profile")}
         </Heading>
         <Paragraph>
-          {t("lorem_ipsum")}
+          {t("index.profile_text")}
         </Paragraph>
 
         <Box align="center" pt={8} my={4}>
