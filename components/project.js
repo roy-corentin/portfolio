@@ -39,7 +39,6 @@ const Project = ({ children, title, img, img_hvr, icons = [], delay = 0, downloa
         </MotionDiv>
         <Text>
           {children}
-          {console.log(download)}
           {download != undefined ? <Text as="b"> <Link href={download} isExternal>(download)</Link> </Text> : <></>}
           {repo != undefined ? <Text as="b"> <Link href={repo} isExternal>(repo)</Link> </Text> : <></>}
         </Text>
