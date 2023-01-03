@@ -1,9 +1,10 @@
-import { Button, Container, Box, Heading, Image, useColorModeValue } from "@chakra-ui/react";
+import { Button, Center, Container, Box, Heading, Image, useColorModeValue, Link, HStack } from "@chakra-ui/react";
 import { ChevronRightIcon, ChevronLeftIcon } from "@chakra-ui/icons"
 import NextLink from "next/link"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { useTranslation } from 'react-i18next';
+import { GithubIcon, LinkedinIcon } from "../public/icons/icons"
 
 const Page = () => {
   const { t } = useTranslation()
@@ -42,7 +43,14 @@ const Page = () => {
           </NextLink>
         </Box>
       </Section>
-    </Container>
+
+      <Box display={"flex"} justifyContent={"center"} position={"fixed"} bottom={0} left={0} right={0}>
+        <HStack >
+          <Link href={"https://www.linkedin.com/in/corentin-roy-a715922a/ "} isExternal> <LinkedinIcon boxSize={"2em"} /> </Link>
+          <Link href={"https://github.com/roy-corentin"} isExternal> <GithubIcon boxSize={"2.2em"} /> </Link>
+        </HStack>
+      </Box>
+    </Container >
   );
 };
 
