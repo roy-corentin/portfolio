@@ -13,6 +13,8 @@ const Page = () => {
     <Container>
       <Box borderRadius="lg" bg={useColorModeValue("blackAlpha.100", "whiteAlpha.200")} p={3} mb={6} align="center">
         {t("index.intro")}
+        <br />
+        {t("index.research")}
       </Box>
 
       <Box display={{ md: "flex" }}>
@@ -32,7 +34,16 @@ const Page = () => {
           {t("index.profile")}
         </Heading>
         <Paragraph>
-          {t("index.profile_text")}
+          {t("index.profile_text_1")}
+        </Paragraph>
+        <Paragraph>
+          {t("index.profile_text_2")}
+        </Paragraph>
+        <Paragraph>
+          {t("index.profile_text_3")}
+        </Paragraph>
+        <Paragraph>
+          {t("index.profile_text_4")}
         </Paragraph>
 
         <Box align="center" pt={8} my={4}>

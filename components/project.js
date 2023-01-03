@@ -1,6 +1,7 @@
 import { HStack, Box, Text, Image, Heading, useColorModeValue, Link } from "@chakra-ui/react"
 import { MotionDiv } from "./section"
 import { useState } from "react"
+import { GithubIcon } from "../public/icons/icons"
 
 const Project = ({ children, title, img, img_hvr, icons = [], delay = 0, download = undefined, repo = undefined }) => {
   const [image, setImage] = useState(img);
@@ -40,7 +41,7 @@ const Project = ({ children, title, img, img_hvr, icons = [], delay = 0, downloa
         <Text>
           {children}
           {download != undefined ? <Text as="b"> <Link href={download} isExternal>(download)</Link> </Text> : <></>}
-          {repo != undefined ? <Text as="b"> <Link href={repo} isExternal>(repo)</Link> </Text> : <></>}
+          {repo != undefined ? <Text as="b"> <Link href={repo} isExternal>(Repo <GithubIcon boxSize={"1.5rem"} />)</Link> </Text> : <></>}
         </Text>
       </Box>
     </Box>
