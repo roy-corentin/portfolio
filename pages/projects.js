@@ -18,8 +18,10 @@ const Projects = () => {
           const name = project.title
           const title = name != undefined ? name.charAt(0).toUpperCase() + name.slice(1) : ""
           const project_icons = project["icons"] != undefined ? project["icons"].map((icon) => { return icons[icon] }) : undefined
+          const project_download = project["download"]
+          const project_repo = project["repo"]
 
-          return <SectionProject title={title} img={name + ".png"} img_hvr={name + ".gif"} icons={project_icons} delay={0.5}>
+          return <SectionProject title={title} img={name + ".png"} img_hvr={name + ".gif"} icons={project_icons} delay={0.5} download={project_download} repo={project_repo} >
             <Text>{t("projects_page." + name)}</Text>
           </SectionProject>
         })}
