@@ -1,4 +1,4 @@
-import { Button, Center, Container, Box, Heading, Image, useColorModeValue, Link, HStack } from "@chakra-ui/react";
+import { Button, Center, Text, Container, Box, Heading, Image, useColorModeValue, Link, HStack } from "@chakra-ui/react";
 import { ChevronRightIcon, ChevronLeftIcon } from "@chakra-ui/icons"
 import NextLink from "next/link"
 import Section from "../components/section"
@@ -44,6 +44,10 @@ const Page = () => {
         </Paragraph>
         <Paragraph>
           {t("index.profile_text_4")}
+        </Paragraph>
+        <Paragraph>
+          {t("index.profile_text_5")}
+          <Text as={'u'}>corentin.roy02@laposte.net</Text>
         </Paragraph>
 
         <Box align="center" pt={8} my={4}>
