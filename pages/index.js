@@ -59,7 +59,7 @@ const Page = () => {
         </Box>
       </Section>
 
-      <Box display={"flex"} justifyContent={"center"} position={"fixed"} bottom={0} left={0} right={0}>
+      <Box display={"flex"} justifyContent={"center"} >
         <HStack >
           <Link href={"https://www.linkedin.com/in/corentin-roy-a715922a/ "} isExternal> <LinkedinIcon boxSize={"2em"} /> </Link>
           <Link href={"https://github.com/roy-corentin"} isExternal> <GithubIcon boxSize={"2.2em"} /> </Link>
