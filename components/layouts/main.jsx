@@ -11,7 +11,6 @@ const Main = ({ children, router }) => {
         <link rel="icon" href="/images/BigBoss.png" />
       </Head>
 
-      {console.log(router)}
       <Navbar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
