@@ -21,7 +21,7 @@ const Projects = () => {
           const project_download = project["download"]
           const project_repo = project["repo"]
 
-          return <SectionProject title={title} img={name + ".png"} img_hvr={name + ".gif"} icons={project_icons} delay={0.5} download={project_download} repo={project_repo} >
+          return <SectionProject key={title} title={title} img={name + ".png"} img_hvr={name + ".gif"} icons={project_icons} delay={0.5} download={project_download} repo={project_repo} >
             <Text>{t("projects_page." + name)}</Text>
           </SectionProject>
         })}

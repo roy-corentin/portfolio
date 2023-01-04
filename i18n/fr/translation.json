@@ -4,20 +4,21 @@
   "index": {
     "aka": "JilkoniX (Développeur / Cinéphile)",
     "button_portfolio": "Mon Portfolio",
+    "date": "D'Avril 2023 à Août 2023",
     "intro": "Hey, je suis un étudiant développeur à Epitech Technology Bordeaux 🇫🇷 ",
-    "research": "Je suis à la recherche d'un stage D'Avril 2023 à Août 2023",
     "profile": "Profile",
     "profile_text_1": "Je suis étudiant en 3ème année à Epitech Technologie sur Bordeaux👨‍🎓, originaire de Charente-Maritime en pleine campagne 🍀",
     "profile_text_2": "📌📚 Toutes mes études sont basées sur ma passion pour l'informatique. J'ai intégré un lycée qui proposait le BacS option Informatique et Science du Numérique, pour ensuite partir sur Bordeaux afin d'intégrer Epitech Technologie, un cursus en 5ans afin obtenir le titre d'Expert en Technologie de l'information",
     "profile_text_3": "📌📽 J'ai pour seconde passion le cinéma, j'aime autant les voir que comprendre la technique de réalisation. Pour voir ça de plus près je fais de la figuration quand j'en ai la possibilité pour voir de vrai plateau de cinéma.",
     "profile_text_4": "📌👱🏼 Motivé, autonome et adaptatif, j'ai pour objectif de devenir un développeur confirmé! Je suis donc à la recherche de challenges pour me perfectionner !",
     "profile_text_5": "📩 Je serai ravie d'échanger avec vous. Je suis disponible par message privé ou directement par mail: ",
-    "projects": "Projets"
+    "projects": "Projets",
+    "research": "Je suis à la recherche d'un stage "
   },
   "projects": "Projets",
   "projects_page": {
     "blue": "\"Blue\" est un projet de Game Jam, nous avions comme sujet: le bleu. En un week-end nous devions en créer un jeu afin de le présenter devant un jury. Nous avons décidé de faire un jeu en VR, dans une salle en bleu avec des objects de couleur bleu et la musique \"Blue Birds\". Parmis tous un carré est de couleur plus sombre et le joueur doit le trouver en tournant la tête.",
-    "gomoku": "Le Gomoku est un jeux Japonais où l'on doit aligner 5 de nos pions pour gagner. Le projet consist en un groupe de deux, de créer une IA en python (sans librairies) capable de jouer au Gomoku et d'être capable de battre un humain sur plusieurs parties. Des Algorithmes comme le MinMax ou le MonteCarlo sont conseillés",
+    "gomoku": "Le Gomoku est un jeux Japonais où l'on doit aligner 5 de nos pions pour gagner. Le projet consiste en un groupe de deux, de créer une IA en python (sans librairies) capable de jouer au Gomoku et d'être capable de battre un humain sur plusieurs parties. Des Algorithmes comme le MinMax ou le MonteCarlo étaient conseillés, nous avons utilisé le MinMax",
     "indiestudio": "\"IndieStudio\" est un projet de fin de deuxième année par groupe de 4. Il consiste à recréer le fameux jeux Bomberman en 3D avec le language C++ et la librairie Graphique Raylib."
   }
 }

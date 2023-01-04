@@ -4,12 +4,14 @@
   "index": {
     "aka": "JilkoniX (Developer / Cinephile)",
     "button_portfolio": "My Portfolio",
+    "date": "From April 2023 to August 2023",
     "intro": "Hello I'm a student developer at Epitech Technology in Bordeaux 🇫🇷",
     "profile": "Profile",
-    "projects": "Projects"
+    "projects": "Projects",
+    "research": "I'm looking for an internship "
   },
   "projects": "Projects",
   "projects_page": {
-    "blue": "Blue est un projet de Game Jam, nous avions un sujet et un week-end pour créer un jeu pour le présenter le Lundi. Notre avions pour thème la couleur Bleu. On a décider de faire un jeu en VR, où dans une salle en bleu avec la musique \"Blue Birds\", des objets de couleur bleu changeant de couleur en rythme avec la musique"
+    "blue": "\"Blue\"is a Game Jam project, we had as a subject: the color blue. In one weekend we had to create a game to present it in front of a jury. We decided to make a game in VR, in a blue room with blue objects and the music \"Blue Birds\". Among all of them, a square is darker and the player must find it by turning his head."
   }
 }

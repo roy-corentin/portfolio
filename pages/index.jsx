@@ -1,5 +1,5 @@
 import { Button, Center, Text, Container, Box, Heading, Image, useColorModeValue, Link, HStack } from "@chakra-ui/react";
-import { ChevronRightIcon, ChevronLeftIcon } from "@chakra-ui/icons"
+import { ChevronRightIcon, ChevronLeftIcon, WarningTwoIcon } from "@chakra-ui/icons"
 import NextLink from "next/link"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
@@ -13,8 +13,14 @@ const Page = () => {
     <Container>
       <Box borderRadius="lg" bg={useColorModeValue("blackAlpha.100", "whiteAlpha.200")} p={3} mb={6} align="center">
         {t("index.intro")}
-        <br />
+      </Box>
+      <Box borderRadius="lg" bg={useColorModeValue("darkorange", "orangered")} p={3} mb={6} align="center">
+        <WarningTwoIcon />
         {t("index.research")}
+        <Text as={"b"}>
+          {t("index.date")}
+        </Text>
+        <WarningTwoIcon />
       </Box>
 
       <Box display={{ md: "flex" }}>

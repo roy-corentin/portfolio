@@ -8,5 +8,5 @@
 * DEPENDENCIES
     - Use Chakra for all the principal components
     - Use Chakra for Themes (dark/light)
-    - Use Chakra for perso Icons
-    - Use framer-motion for ThemeToggleButton
+    - Use Chakra for custom Icons
+    - Use framer-motion provided by Chakra to animate Theme ToggleButton
