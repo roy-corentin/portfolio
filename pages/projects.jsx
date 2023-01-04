@@ -3,7 +3,7 @@ import SectionProject from "../components/section_project"
 import { useTranslation } from 'react-i18next';
 import projects from "../config/projects.json" assert {type: 'json'};
 import { CIcon, CSIcon, RubyIcon, UnityIcon, PythonIcon, CPPIcon } from "../public/icons/icons"
-import React from "react";
+import { cloneElement } from "react";
 
 const Projects = () => {
   const icons = { c: <CIcon />, cs: <CSIcon />, ruby: <RubyIcon />, unity: <UnityIcon />, python: <PythonIcon />, cpp: <CPPIcon /> }
@@ -18,7 +18,7 @@ const Projects = () => {
         {projects.map((project) => {
           const name = project.title
           const title = name != undefined ? name.charAt(0).toUpperCase() + name.slice(1) : ""
-          const project_icons = project["icons"] != undefined ? project["icons"].map((icon) => { return React.cloneElement(icons[icon], { key: title + icon }) }) : undefined
+          const project_icons = project["icons"] != undefined ? project["icons"].map((icon) => { return cloneElement(icons[icon], { key: title + icon }) }) : undefined
           const project_download = project["download"]
           const project_repo = project["repo"]
 
