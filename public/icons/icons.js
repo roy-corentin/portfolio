@@ -6,5 +6,6 @@ import UnityIcon from "./unity"
 import PythonIcon from "./python"
 import GithubIcon from "./github"
 import LinkedinIcon from "./linkedin"
+import ReactIcon from "./react"
 
-export { RubyIcon, CIcon, CSIcon, UnityIcon, PythonIcon, CPPIcon, GithubIcon, LinkedinIcon };
+export { RubyIcon, CIcon, CSIcon, UnityIcon, PythonIcon, CPPIcon, GithubIcon, LinkedinIcon, ReactIcon };

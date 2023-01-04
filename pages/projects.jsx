@@ -2,11 +2,11 @@ import { VStack, Text, Box, Heading, Divider } from "@chakra-ui/react"
 import SectionProject from "../components/section_project"
 import { useTranslation } from 'react-i18next';
 import projects from "../config/projects.json" assert {type: 'json'};
-import { CIcon, CSIcon, RubyIcon, UnityIcon, PythonIcon, CPPIcon } from "../public/icons/icons"
+import { CIcon, CSIcon, RubyIcon, UnityIcon, PythonIcon, CPPIcon, ReactIcon } from "../public/icons/icons"
 import { cloneElement } from "react";
 
 const Projects = () => {
-  const icons = { c: <CIcon />, cs: <CSIcon />, ruby: <RubyIcon />, unity: <UnityIcon />, python: <PythonIcon />, cpp: <CPPIcon /> }
+  const icons = { c: <CIcon />, cs: <CSIcon />, ruby: <RubyIcon />, unity: <UnityIcon />, python: <PythonIcon />, cpp: <CPPIcon />, react: <ReactIcon /> }
   const { t } = useTranslation()
 
   return (

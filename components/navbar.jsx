@@ -13,10 +13,24 @@ import {
   MenuButton,
   IconButton,
   useColorModeValue,
+  Divider,
 } from "@chakra-ui/react";
-import { HamburgerIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, ChevronDownIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button"
 import { useTranslation } from 'react-i18next';
+import FlagIcon from "./FlagIcon"
+import ReactCountryFlag from "react-country-flag";
+
+const LanguageItem = ({ t, i18n }) => {
+  return (
+    <>
+      {t("language")}
+      < ReactCountryFlag countryCode={i18n.language} style={{ marginLeft: "4px" }
+      } />
+      < ChevronDownIcon />
+    </>
+  )
+}
 
 const LinkItem = ({ href, path, children }) => {
   const active = path == href;
@@ -36,7 +50,7 @@ const LinkItem = ({ href, path, children }) => {
 
 const Navbar = (props) => {
   const { path } = props;
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
   return (
     <Box
@@ -62,8 +76,7 @@ const Navbar = (props) => {
           </Heading>
         </Flex>
 
-        <Stack
-          direction={{ base: "column", md: "row" }}
+        <Flex
           display={{ base: "none", md: "flex" }}
           width={{ base: "full", md: "auto" }}
           alignItems="center"
@@ -76,7 +89,16 @@ const Navbar = (props) => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-        </Stack>
+          <Menu>
+            <MenuButton variant="outline" aria-label="Languages">
+              <LanguageItem t={t} i18n={i18n} />
+            </MenuButton >
+            <MenuList>
+              <MenuItem key={"fr"} onClick={() => { i18n.changeLanguage("fr") }}> {<FlagIcon locale={"fr"} />} </MenuItem>
+              <MenuItem key={"gb"} onClick={() => { i18n.changeLanguage("gb") }}> {<FlagIcon locale={"gb"} />} </MenuItem>
+            </MenuList>
+          </Menu>
+        </Flex>
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
@@ -93,6 +115,9 @@ const Navbar = (props) => {
                 <NextLink href="/posts" passHref >
                   <MenuItem as={Link}> Posts </MenuItem>
                 </NextLink>
+                <Divider />
+                <MenuItem key={"fr"} onClick={() => { i18n.changeLanguage("fr") }}> {<FlagIcon locale={"fr"} />} </MenuItem>
+                <MenuItem key={"gb"} onClick={() => { i18n.changeLanguage("gb") }}> {<FlagIcon locale={"gb"} />} </MenuItem>
               </MenuList>
             </Menu>
           </Box>

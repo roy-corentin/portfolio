@@ -7,7 +7,7 @@ export const resources = {
   fr: {
     translation: translationFR,
   },
-  en: {
+  gb: {
     translation: translationEN,
   },
 };
@@ -19,7 +19,7 @@ i18n
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
     debug: true,
-    fallbackLng: ["fr"],
+    fallbackLng: ["fr", "gb"],
     resources: resources,
     returnObjects: false
   });
