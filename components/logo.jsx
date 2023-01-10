@@ -14,7 +14,7 @@ const LogoBox = styled.span`
 
   &:hover {
     transform: scale(1.2);
-    transition: transform 330ms ease-in-out
+    transition: transform 330ms ease-in-out;
   }
 `;
 
@@ -26,12 +26,7 @@ const Logo = () => {
       <a>
         <LogoBox>
           <Image src={BigBossImg} width={20} height={20} alt="logo" />
-          <Text
-            color={useColorModeValue("gray.800", "whiteAlpha.900")}
-            fontFamily="M PLUS Rounded 1c"
-            fontWeight="bold"
-            ml={3}
-          >
+          <Text color={useColorModeValue("gray.800", "whiteAlpha.900")} fontFamily="M PLUS Rounded 1c" fontWeight="bold" ml={3}>
             Corentin Roy
           </Text>
         </LogoBox>

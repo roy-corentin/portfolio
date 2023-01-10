@@ -18,7 +18,7 @@
   },
   "projects": "Projets",
   "projects_page": {
-    "area": "\"Area\"",
+    "area": "\"Area\" est un projet Web contenant un Backend en Ruby On Rail (RoR), un Frontend Web en React et un Frontend Mobile avec Apache. Le projet consiste à créer un dashboard qui peut contenir de nombreux widgets qui intéragissent avec différentes API utilisant une connection OAuth ou non. Exemple: GoogleGmail, Spotify, NasaGallery, WeatherAPI, TimeAPI etc... ",
     "blue": "\"Blue\" est un projet de Game Jam, nous avions comme sujet: le bleu. En un week-end nous devions en créer un jeu afin de le présenter devant un jury. Nous avons décidé de faire un jeu en VR, dans une salle en bleu avec des objects de couleur bleu et la musique \"Blue Birds\". Parmis tous un carré est de couleur plus sombre et le joueur doit le trouver en tournant la tête.",
     "gomoku": "Le Gomoku est un jeux Japonais où l'on doit aligner 5 de nos pions pour gagner. Le projet consiste en un groupe de deux, de créer une IA en python (sans librairies) capable de jouer au Gomoku et d'être capable de battre un humain sur plusieurs parties. Des Algorithmes comme le MinMax ou le MonteCarlo étaient conseillés, nous avons utilisé le MinMax",
     "indiestudio": "\"IndieStudio\" est un projet de fin de deuxième année par groupe de 4. Il consiste à recréer le fameux jeux Bomberman en 3D avec le language C++ et la librairie Graphique Raylib."

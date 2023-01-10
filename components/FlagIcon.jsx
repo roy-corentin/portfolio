@@ -7,7 +7,7 @@ const FlagIcon = ({ locale }) => {
       <ReactCountryFlag countryCode={locale.toUpperCase()} svg style={{ marginRight: "12px" }} />
       {locale.toUpperCase()}
     </Box>
-  )
-}
+  );
+};
 
-export default FlagIcon
+export default FlagIcon;
