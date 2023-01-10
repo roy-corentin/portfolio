@@ -5,7 +5,7 @@ import { GithubIcon } from "../public/icons/icons";
 
 const Project = ({ children, title, img, img_hvr, icons = [], delay = 0, download = undefined, repo = undefined }) => {
   const [image, setImage] = useState(img);
-  if (img_hvr === undefined) {
+  if (img_hvr === undefined || img_hvr === null) {
     img_hvr = img;
   }
 

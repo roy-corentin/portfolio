@@ -33,6 +33,7 @@ const Projects = () => {
                   return cloneElement(icons[icon], { key: title + icon });
                 })
               : undefined;
+          const project_gif = project["gif"];
           const project_download = project["download"];
           const project_repo = project["repo"];
 
@@ -41,7 +42,7 @@ const Projects = () => {
               key={title}
               title={title}
               img={name + ".png"}
-              img_hvr={name + ".gif"}
+              img_hvr={project_gif}
               icons={project_icons}
               delay={0.5}
               download={project_download}
