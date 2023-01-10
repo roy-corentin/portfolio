@@ -70,6 +70,7 @@ const Navbar = (props) => {
           alignItems="center"
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
+          gap={5}
         >
           <LinkItem href="/projects" path={path}>
             {t("projects")}
