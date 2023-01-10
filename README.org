@@ -6,8 +6,8 @@
 ** Projects
     Information about some of my projects
 * DEPENDENCIES
-    - Use Chakra for all the principal components
+    - Use Chakra for all the principals components
     - Use Chakra for Themes (dark/light)
     - Use Chakra for custom Icons
     - Use framer-motion provided by Chakra to animate Theme ToggleButton
-    - Use I18n to change the language
+    - Use I18n to change the current language
