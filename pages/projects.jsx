@@ -1,4 +1,4 @@
-import { VStack, Box, Heading, Divider } from "@chakra-ui/react";
+import { VStack, Text, Box, Heading, Divider } from "@chakra-ui/react";
 import SectionProject from "../components/section_project";
 import { useTranslation } from "react-i18next";
 import projects from "../config/projects.json" assert { type: "json" };
@@ -19,11 +19,18 @@ const Projects = () => {
 
   return (
     <Box width="100M">
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h3" fontSize={20} mb={4} variant="section-title">
         {t("projects")}
       </Heading>
+      <Heading as="h4" variant="projects-title">
+        {t("projects_page.title_intro")}
+      </Heading>
+      <Heading as="h4" variant="projects-info">
+        {t("projects_page.intro")}
+      </Heading>
 
-      <VStack divider={<Divider />} spacing={1} align="stretch">
+      <Divider mb={2} />
+      <VStack divider={<Divider mb={4} mt={4} />} spacing={1} align="stretch">
         {projects.map((project) => {
           const name = project.title;
           const title = name != undefined ? name.charAt(0).toUpperCase() + name.slice(1) : "";
