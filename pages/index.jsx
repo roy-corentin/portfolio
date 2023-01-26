@@ -47,9 +47,14 @@ const Page = () => {
           {t("index.profile")}
         </Heading>
         <Paragraph>{t("index.profile_text_1")}</Paragraph>
+        <br />
         <Paragraph>{t("index.profile_text_2")}</Paragraph>
+        <br />
         <Paragraph>{t("index.profile_text_3")}</Paragraph>
+        <br />
         <Paragraph>{t("index.profile_text_4")}</Paragraph>
+        <br />
+        <br />
         <Paragraph>
           {t("index.profile_text_5")}
           <Text as={"u"}>corentin.roy02@laposte.net</Text>
@@ -66,7 +71,7 @@ const Page = () => {
 
       <Box display={"flex"} justifyContent={"center"}>
         <HStack>
-          <Link href={"https://www.linkedin.com/in/corentin-roy-a715922a/ "} isExternal>
+          <Link href={"https://www.linkedin.com/in/corentin-roy-a715922a"} isExternal>
             {" "}
             <LinkedinIcon boxSize={"2em"} />{" "}
           </Link>
