@@ -5,14 +5,24 @@
   "index": {
     "aka": "JilkoniX (Developer / Cinephile)",
     "button_portfolio": "My Portfolio",
-    "date": "April 2023 and August 2023",
+    "date": "April 2023 and July 2023",
     "intro": "Hello I'm a student developer at Epitech Technology in Bordeaux 🇫🇷",
     "profile": "Profile",
+    "profile_text_1": "I am a 3rd year student at Epitech Technologie on Bordeaux👨🎓 and originally from Charente-Maritime in the countryside. 🍀",
+    "profile_text_2": "📌📚 All my studies are based on my passion for computer science. I entered a high school that offered the BacS option Computer Science and Digital Science, and then moved to Bordeaux. I integrated Epitech Technologie, a 5 years course to obtain the title of Expert in Information Technology.",
+    "profile_text_3": "📽 My second passion is cinema. Since I was very young, cinema has always been a passion for me. I love discovering new stories and universes through movies. I have a great knowledge of the history of cinema as well as its different genres and directors. This passion also gave me the opportunity to be an extra in a series.",
+    "profile_text_4": "📌👱🏼 Motivated, autonomous and adaptive, my goal is to become a confirmed developer! I am looking for challenges to improve myself!",
+    "profile_text_5": "📩 I would be happy to talk with you. I am available by private message or directly by email: ",
     "projects": "Projects",
-    "research": "I'm looking for an internship of 4-5month between "
+    "research": "I'm looking for an internship between "
   },
   "projects": "Projects",
   "projects_page": {
-    "blue": "\"Blue\"is a Game Jam project, we had as a subject: the color blue. In one weekend we had to create a game to present it in front of a jury. We decided to make a game in VR, in a blue room with blue objects and the music \"Blue Birds\". Among all of them, a square is darker and the player must find it by turning his head."
+    "area": "\"Area\" is a web project containing a backend in Ruby On Rail (RoR), a web frontend in React and a mobile frontend with Apache. The project consists in creating a dashboard with many widgets that interact with different APIs using an OAuth connection or not. Examples: GoogleGmail, Spotify, NasaGallery, WeatherAPI, TimeAPI etc... ",
+    "blue": "\"Blue\"is a Game Jam project, we had as a subject: the color blue. In one weekend we had to create a game to present it in front of a jury. We decided to make a game in VR, in a blue room with blue objects and the music \"Blue Birds\". Among all of them, a square is darker and the player must find it by turning his head.",
+    "gomoku": "Gomoku is a Japanese game where you have to align 5 of your pieces to win. I created an AI in python (without library) able to play Gomoku and to beat a human on several games. Algorithms like MinMax or MonteCarlo were recommended, I chose MinMax because it is fast to implement and more customizable.",
+    "indiestudio": "\"IndieStudio\" is a project for the end of the second year in groups of 4. It consists in recreating the famous Bomberman game in 3D with the C++ language and the Raylib graphics library.",
+    "intro": "I chose the projects that seemed the most relevant between my second and third year. They are projects that differ a lot by their languages, libraries, whether they are web or not, etc...",
+    "title_intro": "Here are some of my projects done at Epitech:"
   }
 }

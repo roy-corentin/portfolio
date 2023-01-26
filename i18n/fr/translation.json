@@ -5,22 +5,24 @@
   "index": {
     "aka": "JilkoniX (Développeur / Cinéphile)",
     "button_portfolio": "Mon Portfolio",
-    "date": "Avril 2023 et Août 2023",
-    "intro": "Hey, je suis un étudiant développeur à Epitech Technology Bordeaux 🇫🇷 ",
-    "profile": "Profile",
-    "profile_text_1": "Je suis étudiant en 3ème année à Epitech Technologie sur Bordeaux👨‍🎓, originaire de Charente-Maritime en pleine campagne 🍀",
-    "profile_text_2": "📌📚 Toutes mes études sont basées sur ma passion pour l'informatique. J'ai intégré un lycée qui proposait le BacS option Informatique et Science du Numérique, pour ensuite partir sur Bordeaux afin d'intégrer Epitech Technologie, un cursus en 5ans afin obtenir le titre d'Expert en Technologie de l'information",
-    "profile_text_3": "📌📽 J'ai pour seconde passion le cinéma. Depuis mon plus jeune âge, le cinéma a toujours été une passion pour moi. J'adore découvrir de nouvelles histoires et univers à travers les films et j'ai une grande connaissance de l'histoire du cinéma ainsi que de ses différents genres et réalisateurs. Cette passion m'a également donné l'opportunité de faire de la figuration dans une série.",
+    "date": "Avril 2023 et Juillet 2023",
+    "intro": "Hey! Je suis un étudiant développeur à Epitech Technology Bordeaux 🇫🇷 ",
+    "profile": "Profil",
+    "profile_text_1": "Je suis étudiant en 3ème année à Epitech Technologie sur Bordeaux👨‍🎓 et originaire de Charente-Maritime en pleine campagne. 🍀",
+    "profile_text_2": "📌📚 Toutes mes études sont basées sur ma passion pour l'informatique. J'ai intégré un lycée qui proposait le BacS option Informatique et Science du Numérique, pour ensuite partir sur Bordeaux. J'y ai intégré Epitech Technologie, un cursus en 5ans afin obtenir le titre d'Expert en Technologie de l'information.",
+    "profile_text_3": "📌📽 J'ai pour seconde passion le cinéma. Depuis mon plus jeune âge, le cinéma a toujours été une passion pour moi. J'adore découvrir de nouvelles histoires et univers à travers les films. J'ai une grande connaissance de l'histoire du cinéma ainsi que de ses différents genres et réalisateurs. Cette passion m'a également donné l'opportunité de faire de la figuration dans une série.",
     "profile_text_4": "📌👱🏼 Motivé, autonome et adaptatif, j'ai pour objectif de devenir un développeur confirmé! Je suis donc à la recherche de challenges pour me perfectionner !",
     "profile_text_5": "📩 Je serai ravie d'échanger avec vous. Je suis disponible par message privé ou directement par mail: ",
     "projects": "Projets",
-    "research": "Je suis à la recherche d'un stage de 4 à 5mois entre "
+    "research": " Actuellement à la recherche d'un stage entre "
   },
   "projects": "Projets",
   "projects_page": {
-    "area": "\"Area\" est un projet Web contenant un Backend en Ruby On Rail (RoR), un Frontend Web en React et un Frontend Mobile avec Apache. Le projet consiste à créer un dashboard qui peut contenir de nombreux widgets qui intéragissent avec différentes API utilisant une connection OAuth ou non. Exemple: GoogleGmail, Spotify, NasaGallery, WeatherAPI, TimeAPI etc... ",
-    "blue": "\"Blue\" est un projet de Game Jam, nous avions comme sujet: le bleu. En un week-end nous devions en créer un jeu afin de le présenter devant un jury. Nous avons décidé de faire un jeu en VR, dans une salle en bleu avec des objects de couleur bleu et la musique \"Blue Birds\". Parmis tous un carré est de couleur plus sombre et le joueur doit le trouver en tournant la tête.",
-    "gomoku": "Le Gomoku est un jeux Japonais où l'on doit aligner 5 de nos pions pour gagner. Le projet consiste en un groupe de deux, de créer une IA en python (sans librairies) capable de jouer au Gomoku et d'être capable de battre un humain sur plusieurs parties. Des Algorithmes comme le MinMax ou le MonteCarlo étaient conseillés, nous avons utilisé le MinMax",
-    "indiestudio": "\"IndieStudio\" est un projet de fin de deuxième année par groupe de 4. Il consiste à recréer le fameux jeux Bomberman en 3D avec le language C++ et la librairie Graphique Raylib."
+    "area": "\"Area\" est un projet web contenant un backend en Ruby On Rail (RoR), un frontend web en React et un frontend mobile avec Apache. Le projet consiste à créer un dashboard avec de nombreux widgets qui intéragissent avec différentes API utilisant une connection OAuth ou non. Exemples: GoogleGmail, Spotify, NasaGallery, WeatherAPI, TimeAPI etc... ",
+    "blue": "\"Blue\" est un projet de Game Jam. Nous avions comme sujet: le bleu. En un week-end nous devions en créer un jeu afin de le présenter devant un jury. Nous avions décidé d'en faire un jeu en VR, dans une salle en bleu avec des objets de couleur bleu et la musique \"Blue Birds\". Parmis tous, un carré est de couleur plus sombre et le joueur doit le trouver en tournant la tête.",
+    "gomoku": "Le Gomoku est un jeux Japonais où l'on doit aligner 5 de nos pions pour gagner. J'ai créé une IA en python (sans librairie) capable de jouer au Gomoku et de battre un humain sur plusieurs parties. Des algorithmes comme le MinMax ou le MonteCarlo étaient conseillés, j'ai choisis le MinMax car il est rapide à implémenter et plus personnalisable.",
+    "indiestudio": "\"IndieStudio\" est un projet de fin de deuxième année par groupe de 4. Il consiste à recréer le fameux jeux Bomberman en 3D avec le language C++ et la librairie Graphique Raylib.",
+    "intro": "J'ai choisi les projets qui me semblaient les plus pertinents entre ma deuxième et ma troisième année. Ce sont des projets qui diffèrent beaucoup par leurs langages, librairies, qu'ils soient web ou non, ect...",
+    "title_intro": "Voici quelques-uns de mes projets réalisés à Epitech:"
   }
 }

@@ -19,6 +19,17 @@ const components = {
         textDecorationThickness: 4,
         marginTop: 3,
         marginBottom: 4
+      },
+      "projects-title": {
+        fontSize: 17,
+        color: "#88ccca",
+        fontWeight: "bold",
+        marginBottom: 2
+      },
+      "projects-info": {
+        fontSize: 17,
+        fontWeight: "medium",
+        marginBottom: 9
       }
     }
   },
