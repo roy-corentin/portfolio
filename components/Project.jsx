@@ -1,8 +1,9 @@
-import { HStack, Box, Text, Image, Heading, Link } from "@chakra-ui/react";
-import { MotionDiv } from "./section";
+import { HStack, Box, Text, Image, Heading } from "@chakra-ui/react";
+import { MotionDiv } from "./Section";
 import { useState } from "react";
-import { GithubIcon } from "../public/icons/icons";
-import { PlayIconProject, PlayIconProjectMobile } from "./playIconProject";
+import { PlayIconProject, PlayIconProjectMobile } from "./PlayIconProject";
+import DownloadLink from "./DownloadLink";
+import RepoLink from "./RepoLink";
 
 const Project = ({ children, title, img, img_hvr, icons = [], delay = 0, download = undefined, repo = undefined }) => {
   const [image, setImage] = useState(img);
@@ -45,23 +46,8 @@ const Project = ({ children, title, img, img_hvr, icons = [], delay = 0, downloa
             {icons}
           </HStack>
           <Text> {children} </Text>
-          {download != undefined ? (
-            <Link href={download} isExternal>
-              <Text as="b"> (download) </Text>
-            </Link>
-          ) : (
-            <></>
-          )}
-          {repo != undefined ? (
-            <Link href={repo} isExternal>
-              <Text as="b">
-                {" "}
-                (Repo <GithubIcon boxSize={"1.5rem"} />)
-              </Text>
-            </Link>
-          ) : (
-            <></>
-          )}
+          <DownloadLink download={download} />
+          <RepoLink repo={repo} />
         </MotionDiv>
       </Box>
     </Box>

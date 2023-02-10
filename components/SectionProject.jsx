@@ -1,5 +1,5 @@
-import Section from "./section";
-import Project from "./project";
+import Section from "./Section";
+import Project from "./Project";
 
 const SectionProject = ({ children, title, img, img_hvr, icons = [], delay = 0, download = undefined, repo = undefined }) => {
   return (

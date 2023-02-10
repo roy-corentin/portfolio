@@ -1,4 +1,4 @@
-import Logo from "./logo";
+import Logo from "./Logo";
 import NextLink from "next/link";
 import {
   Container,
@@ -16,7 +16,7 @@ import {
   Divider
 } from "@chakra-ui/react";
 import { HamburgerIcon, ChevronDownIcon } from "@chakra-ui/icons";
-import ThemeToggleButton from "./theme-toggle-button";
+import ThemeToggleButton from "./ThemeToggleButton";
 import { useTranslation } from "react-i18next";
 import FlagIcon from "./FlagIcon";
 import ReactCountryFlag from "react-country-flag";

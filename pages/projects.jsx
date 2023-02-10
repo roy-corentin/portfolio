@@ -1,5 +1,5 @@
 import { VStack, Text, Box, Heading, Divider } from "@chakra-ui/react";
-import SectionProject from "../components/section_project";
+import SectionProject from "../components/SectionProject";
 import { useTranslation } from "react-i18next";
 import projects from "../config/projects.json" assert { type: "json" };
 import { CIcon, CSIcon, RubyIcon, UnityIcon, PythonIcon, CPPIcon, ReactIcon } from "../public/icons/icons";
