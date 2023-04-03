@@ -17,7 +17,7 @@ const Page = () => {
       <Box borderRadius="lg" bg={useColorModeValue("darkorange", "orangered")} p={3} mb={6} align="center">
         <WarningTwoIcon />
         {t("index.research")}
-        <Text as={"b"}>{t("index.date")}</Text>
+        {/* <Text as={"b"}>{t("index.date")}</Text> */}
         <WarningTwoIcon />
       </Box>
 
