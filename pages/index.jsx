@@ -1,4 +1,4 @@
-import { Button, Text, Container, Box, Heading, Image, useColorModeValue, Link, HStack } from "@chakra-ui/react";
+import { Button, Text, Container, Box, Heading, Image, useColorModeValue, Link, HStack, textDecoration } from "@chakra-ui/react";
 import { ChevronRightIcon, ChevronLeftIcon, WarningTwoIcon } from "@chakra-ui/icons";
 import NextLink from "next/link";
 import Section from "../components/Section";
@@ -57,7 +57,13 @@ const Page = () => {
         <br />
         <Paragraph>
           {t("index.profile_text_5")}
-          <Text as={"u"}>corentin.roy02@laposte.net</Text>
+          <a
+            style={{ textDecoration: "underline", color: "royalblue" }}
+            href="mailto:corentin.roy02@laposte.net?subject=Business&&body=You are so great !"
+            target="_blank"
+          >
+            corentin.roy02@laposte.net
+          </a>
         </Paragraph>
 
         <Box align="center" pt={8} my={4}>
