@@ -1,9 +1,9 @@
-import { Button, Text, Container, Box, Heading, Image, useColorModeValue, Link, HStack, textDecoration } from "@chakra-ui/react";
-import { ChevronRightIcon, ChevronLeftIcon, WarningTwoIcon } from "@chakra-ui/icons";
+import { ChevronLeftIcon, ChevronRightIcon, WarningTwoIcon } from "@chakra-ui/icons";
+import { Box, Button, Container, HStack, Heading, Image, Link, Text, useColorModeValue } from "@chakra-ui/react";
 import NextLink from "next/link";
-import Section from "../components/Section";
-import Paragraph from "../components/Paragraph";
 import { useTranslation } from "react-i18next";
+import Paragraph from "../components/Paragraph";
+import Section from "../components/Section";
 import { GithubIcon, LinkedinIcon } from "../public/icons/icons";
 
 const Page = () => {
