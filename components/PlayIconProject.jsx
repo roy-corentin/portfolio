@@ -8,14 +8,14 @@ export const PlayIconProject = ({ state = "none" }) => {
         <AiFillPlayCircle
           color={useColorModeValue("black", "white")}
           fontSize={34}
-          style={{ display: { base: state, md: "none" }, position: "absolute", left: "25%" }}
+          style={{ display: state, position: "absolute", left: "25%" }}
         />
       </Box>
       <Box display={{ base: "none", md: "flex" }}>
         <AiFillPlayCircle
           color={useColorModeValue("black", "white")}
           fontSize={34}
-          style={{ display: { base: "none", md: state }, position: "absolute", left: "5%" }}
+          style={{ display: state, position: "absolute", left: "5%" }}
         />
       </Box>
     </>
