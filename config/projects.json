@@ -1,25 +1,29 @@
 [
   {
-    "title": "blue",
-    "gif": "blue.gif",
+    "title": "Blue",
+    "img": "blue.png",
+    "imgHvr": "blue.gif",
     "icons": ["unity", "cs"],
     "download": "https://mega.nz/file/wo8mURDK#ZGF02X2i0cFEWYwWF9nCGJvDBwOzJBlzLk3PYVLNZhU"
   },
   {
-    "title": "indiestudio",
-    "gif": "indiestudio.gif",
+    "title": "Indiestudio",
+    "img": "indiestudio.png",
+    "imgHvr": "indiestudio.gif",
     "icons": ["cpp"],
     "repo": "https://github.com/roy-corentin/EpitechBundle/tree/main/B-YEP-400-BDX-4-1-indiestudio-arthur.decaen"
   },
   {
-    "title": "gomoku",
-    "gif": "gomoku.gif",
+    "title": "Gomoku",
+    "img": "gomoku.png",
+    "imgHvr": "gomoku.gif",
     "icons": ["python"],
     "repo": "https://github.com/roy-corentin/EpitechBundle/tree/main/B-AIA-500-BDX-5-1-gomoku-arthur.decaen"
   },
   {
-    "title": "area",
-    "gif": null,
+    "title": "Area",
+    "img": "area.png",
+    "imgHvr": "area.png",
     "icons": ["ruby", "react"],
     "repo": "https://github.com/roy-corentin/EpitechBundle/tree/main/B-DEV-500-BDX-5-1-area-solene.lefeu"
   }

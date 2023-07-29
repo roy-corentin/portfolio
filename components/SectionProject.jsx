@@ -1,10 +1,10 @@
 import Section from "./Section";
 import Project from "./Project";
 
-const SectionProject = ({ children, title, img, img_hvr, icons = [], delay = 0, download = undefined, repo = undefined }) => {
+const SectionProject = ({ children, project, delay }) => {
   return (
     <Section delay={delay}>
-      <Project title={title} img={img} img_hvr={img_hvr} icons={icons} delay={delay + 0.5} download={download} repo={repo}>
+      <Project project={project} delay={delay}>
         {children}
       </Project>
     </Section>

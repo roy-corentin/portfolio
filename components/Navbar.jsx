@@ -32,8 +32,9 @@ const LanguageItem = ({ t, i18n }) => {
 };
 
 const LinkItem = ({ href, path, children }) => {
-  const active = path == href;
+  const active = path === href;
   const inativeColor = useColorModeValue("gray.600", "whiteAlpha.900");
+
   return (
     <NextLink href={href}>
       <Link p={2} bg={active ? "glassTeal" : undefined} color={active ? "#202023" : inativeColor}>
@@ -86,8 +87,7 @@ const Navbar = (props) => {
                   i18n.changeLanguage("fr");
                 }}
               >
-                {" "}
-                {<FlagIcon locale={"fr"} />}{" "}
+                <FlagIcon locale={"fr"} />
               </MenuItem>
               <MenuItem
                 key={"gb"}
@@ -95,8 +95,7 @@ const Navbar = (props) => {
                   i18n.changeLanguage("gb");
                 }}
               >
-                {" "}
-                {<FlagIcon locale={"gb"} />}{" "}
+                <FlagIcon locale={"gb"} />
               </MenuItem>
             </MenuList>
           </Menu>
@@ -115,23 +114,11 @@ const Navbar = (props) => {
                   <MenuItem as={Link}> {t("projects")} </MenuItem>
                 </NextLink>
                 <Divider />
-                <MenuItem
-                  key={"fr"}
-                  onClick={() => {
-                    i18n.changeLanguage("fr");
-                  }}
-                >
-                  {" "}
-                  {<FlagIcon locale={"fr"} />}{" "}
+                <MenuItem key={"fr"} onClick={() => i18n.changeLanguage("fr")}>
+                  <FlagIcon locale={"fr"} />
                 </MenuItem>
-                <MenuItem
-                  key={"gb"}
-                  onClick={() => {
-                    i18n.changeLanguage("gb");
-                  }}
-                >
-                  {" "}
-                  {<FlagIcon locale={"gb"} />}{" "}
+                <MenuItem key={"gb"} onClick={() => i18n.changeLanguage("gb")}>
+                  <FlagIcon locale={"gb"} />
                 </MenuItem>
               </MenuList>
             </Menu>

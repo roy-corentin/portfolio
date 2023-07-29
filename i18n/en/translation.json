@@ -18,10 +18,10 @@
   },
   "projects": "Projects",
   "projects_page": {
-    "area": "\"Area\" is a web project containing a backend in Ruby On Rail (RoR), a web frontend in React and a mobile frontend with Apache. The project consists in creating a dashboard with many widgets that interact with different APIs using an OAuth connection or not. Examples: GoogleGmail, Spotify, NasaGallery, WeatherAPI, TimeAPI etc... ",
-    "blue": "\"Blue\"is a Game Jam project, we had as a subject: the color blue. In one weekend we had to create a game to present it in front of a jury. We decided to make a game in VR, in a blue room with blue objects and the music \"Blue Birds\". Among all of them, a square is darker and the player must find it by turning his head.",
-    "gomoku": "Gomoku is a Japanese game where you have to align 5 of your pieces to win. I created an AI in python (without library) able to play Gomoku and to beat a human on several games. Algorithms like MinMax or MonteCarlo were recommended, I chose MinMax because it is fast to implement and more customizable.",
-    "indiestudio": "\"IndieStudio\" is a project for the end of the second year in groups of 4. It consists in recreating the famous Bomberman game in 3D with the C++ language and the Raylib graphics library.",
+    "Area": "\"Area\" is a web project containing a backend in Ruby On Rail (RoR), a web frontend in React and a mobile frontend with Apache. The project consists in creating a dashboard with many widgets that interact with different APIs using an OAuth connection or not. Examples: GoogleGmail, Spotify, NasaGallery, WeatherAPI, TimeAPI etc... ",
+    "Blue": "\"Blue\"is a Game Jam project, we had as a subject: the color blue. In one weekend we had to create a game to present it in front of a jury. We decided to make a game in VR, in a blue room with blue objects and the music \"Blue Birds\". Among all of them, a square is darker and the player must find it by turning his head.",
+    "Gomoku": "Gomoku is a Japanese game where you have to align 5 of your pieces to win. I created an AI in python (without library) able to play Gomoku and to beat a human on several games. Algorithms like MinMax or MonteCarlo were recommended, I chose MinMax because it is fast to implement and more customizable.",
+    "Indiestudio": "\"IndieStudio\" is a project for the end of the second year in groups of 4. It consists in recreating the famous Bomberman game in 3D with the C++ language and the Raylib graphics library.",
     "intro": "I chose the projects that seemed the most relevant between my second and third year. They are projects that differ a lot by their languages, libraries, whether they are web or not, etc...",
     "title_intro": "Here are some of my projects done at Epitech:"
   }
