@@ -2,11 +2,22 @@ import { Box, useColorModeValue } from "@chakra-ui/react";
 import { AiFillPlayCircle } from "react-icons/ai";
 
 export const PlayIconProject = ({ state = "none" }) => {
-  const mobileStyle = { display: state, position: "absolute", left: "25%" };
-  const style = { display: state, position: "absolute", left: "5%" };
   return (
-    <Box display="flex">
-      <AiFillPlayCircle color={useColorModeValue("black", "white")} fontSize={34} style={mobileStyle} />
-    </Box>
+    <>
+      <Box display={{ base: "flex", md: "none" }}>
+        <AiFillPlayCircle
+          color={useColorModeValue("black", "white")}
+          fontSize={34}
+          style={{ display: { base: state, md: "none" }, position: "absolute", left: "25%" }}
+        />
+      </Box>
+      <Box display={{ base: "none", md: "flex" }}>
+        <AiFillPlayCircle
+          color={useColorModeValue("black", "white")}
+          fontSize={34}
+          style={{ display: { base: "none", md: state }, position: "absolute", left: "5%" }}
+        />
+      </Box>
+    </>
   );
 };
