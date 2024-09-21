@@ -1,5 +1,5 @@
 import { ChevronLeftIcon, ChevronRightIcon, WarningTwoIcon } from "@chakra-ui/icons";
-import { Box, Button, Container, HStack, Heading, Image, Link, Text, useColorModeValue } from "@chakra-ui/react";
+import { Box, Button, Container, HStack, Heading, Image, Link, useColorModeValue } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { useTranslation } from "react-i18next";
 import Paragraph from "../components/Paragraph";
