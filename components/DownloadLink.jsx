@@ -1,16 +1,11 @@
 import { Text, Link } from "@chakra-ui/react";
 
 const DownloadLink = ({ download }) => {
-  if (download !== undefined) {
-    return download ? (
-      <Link href={download} isExternal>
-        <Text as="b"> (download) </Text>
-      </Link>
-    ) : (
-      <></>
-    );
-  }
-  return <></>;
+  return download ? (
+    <Link href={download} isExternal>
+      <Text as="b"> (download) </Text>
+    </Link>
+  ) : null;
 };
 
 export default DownloadLink;
